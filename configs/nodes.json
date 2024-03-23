@@ -1,0 +1,60 @@
+{
+    "Material": {
+      "type": "categorical",
+      "params": {
+                "probability": [0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125],
+                "names":["ceramic", "glass", "metal", "soft-plastic", "hard-plastic", "wood", "paper", "foam"]
+                },
+      "parents": [null],
+      "children": ["Category", "Density", "Elasticity"]
+    },
+
+    "Category": {
+        "type": "categorical",
+        "params": {
+                  "probability": [0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1, 0.1],
+                  "names":["bottle", "bowl", "box", "can", "dice", "fruit", "mug", "plate", "sodacan", "wineglass"]
+                  },
+        "parents": [null],
+        "children": ["Material", "Volume"]
+      },
+  
+    "Density": {
+      "type": "continuous",
+      "params": {
+                "means": [2300, 2600, 7900, 1300, 1500, 646, 756.84, 91.95],
+                "stds": [100, 200, 600, 300, 300, 183.6, 223.76, 127.65],
+                "names": ["ceramic", "glass", "metal", "soft-plastic", "hard-plastic", "wood", "paper", "foam"],
+                "units": "kg.m^{-3}"
+                },
+      "parents": ["Material"],
+      "children": [null]
+    },
+
+    "Elasticity": {
+        "type": "continuous",
+        "params": {
+                  "means": [150, 140, 130, 55, 75, 120, 35, 10],
+                  "stds": [10, 10, 10, 30, 30, 10, 28, 15],
+                  "names": ["ceramic", "glass", "metal", "soft-plastic", "hard-plastic", "wood", "paper", "foam"],
+                  "units": "kPa"
+                  },
+        "parents": ["Material"],
+        "children": [null]
+      },
+
+      "Volume": {
+        "type": "continuous",
+        "params": {
+                  "means": [30,        40,     10,    8,     37,      155.75,  96.67, 0,      5,         85],
+                  "stds":  [50,        80,     26,    60,     50,     28,      28,    15,     10,        20],
+                  "names": ["bottle", "bowl", "box", "can", "dice", "fruit", "mug", "plate", "sodacan", "wineglass"],
+                  "units": "cm^3"
+                  },
+        "parents": ["Category"],
+        "children": [null]
+      }
+  }
+  
+
+  

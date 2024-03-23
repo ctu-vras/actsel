@@ -1,0 +1,22 @@
+{
+    "category-material":
+    {
+        "cfm" : null
+    },
+
+    "material-category":
+    {
+        "cfm" : null
+    },
+    
+    "density-material":
+    {
+        "cfm" : null
+    },
+
+    "elasticity-material":
+    {
+        "cfm" : null
+    }
+
+}

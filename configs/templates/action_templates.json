@@ -1,0 +1,47 @@
+{
+    "mat-vision": {
+      "type": "categorical",
+      "cfm": [[], []],
+      "accuracy": 0.95,
+      "error": null,
+      "units": "-",
+      "target": "Material"
+    },
+
+    "mat-sound": {
+      "type": "categorical",
+      "cfm": [[], []],
+      "accuracy": 0.95,
+      "error": null,
+      "units": "-",
+      "target": "Material"
+    },
+
+    "cat-vision": {
+      "type": "categorical",
+      "cfm": [[], []],
+      "accuracy": 0.90,
+      "error": null,
+      "units": "-",
+      "target": "Category"
+    },
+
+    "density": {
+      "type": "continuous",
+      "cfm": [[], []],
+      "accuracy": null,
+      "error": 223,
+      "units": "kg.m^{-3}",
+      "target": "Density"
+    },
+
+    "elasticity": {
+      "type": "continuous",
+      "cfm": [[], []],
+      "accuracy": null,
+      "error": 10,
+      "units": "kPa",
+      "target": "Elasticity"
+    }
+  }
+  

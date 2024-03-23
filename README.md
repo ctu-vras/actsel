@@ -8,9 +8,9 @@ We introduce ACTSEL. A method for automatic selection of actions that help optim
 ## Graphical model overview
 <p align="center">
   <img src="_src_images/actsel_general_diagram.png" alt="General diagram of ACTSEL algorithm in action."
-  height="250"
+  height="350"
   style="margin-right: 20px;">
-  <img src="_src_images/actsel_actions_network.png" alt="Bayesian network" height="250">
+  <img src="_src_images/actsel_actions_network.png" alt="Bayesian network" height="350">
 </p>
 <p align="center">
   <em>General overview of the algorithm (left), Bayesian network and action relations (right)</em>

@@ -28,3 +28,8 @@ We introduce ACTSEL. A method for automatic selection of actions that help optim
 ### Implementation remarks
 The algorithm and results presented in the paper were obtained offline on pre-measured dataset for broader statistical understanding. This fact is reflected in `main.py`.
 
+## Publication, video, data
+Kruzliak, A.; Hartvich, J.; Patni, S. P.; Rustler, L.; Behrens, J. K.; Abu-Dakka, F. J.; Mikolajczyk, K.; Kyrki, V. & Hoffmann, M. (2024). Interactive Learning of Physical Object Properties Through Robot Manipulation and Database of Object Measurements, in 'Intelligent Robots and Systems (IROS), IEEE/RSJ International Conference on', pp. 7596-7603.
+* Full text: [DOI - IEEE Xplore](https://doi.org/10.1109/IROS58592.2024.10802249) , [pdf-arxiv](https://arxiv.org/abs/2404.07344)
+* Video: [youtube](https://youtu.be/h_ZIYUmzv-8)
+* Database of object measurements and its source code: [link](https://cmp.felk.cvut.cz/ipalm/) 
